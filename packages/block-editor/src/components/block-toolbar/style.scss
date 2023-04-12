@@ -178,6 +178,16 @@
 		white-space: nowrap;
 	}
 
+	.is-up-button.is-up-button.is-up-button {
+		padding-top: $grid-unit;
+		padding-bottom: $grid-unit-05;
+	}
+
+	.is-down-button.is-down-button.is-down-button {
+		padding-top: $grid-unit-05;
+		padding-bottom: $grid-unit;
+	}
+
 	.block-editor-block-contextual-toolbar.is-fixed .block-editor-block-toolbar__block-controls .block-editor-block-mover {
 		border-left-color: $gray-200;
 	}
