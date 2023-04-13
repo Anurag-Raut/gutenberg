@@ -1,5 +1,6 @@
 .wp-block-avatar {
 	// This block has customizable padding, border-box makes that more predictable.
+	line-height: 0;
 	box-sizing: border-box;
 	img {
 		box-sizing: border-box;
