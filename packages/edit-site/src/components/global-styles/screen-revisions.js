@@ -72,7 +72,11 @@ function RevisionsSelect( { userRevisions, currentRevisionId, onChange } ) {
 function RevisionsButtons( { userRevisions, currentRevisionId, onChange } ) {
 	return (
 		<>
-			<ol className="edit-site-global-styles-screen-revisions__revisions-list">
+			<ol
+				className="edit-site-global-styles-screen-revisions__revisions-list"
+				aria-label={ __( 'Global styles revisions' ) }
+				role="group"
+			>
 				{ userRevisions.map( ( revision ) => {
 					revision.is_latest = undefined;
 					const isActive = revision?.id === currentRevisionId;
